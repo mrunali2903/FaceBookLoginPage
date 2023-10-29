@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="filterData">
+
+        </tbody>
+    </table>
+
+
+    <script>
+        const jsonData =[
+            {"name":"Goutham","age":26},
+            {"name":"Dolly","age":22}
+        ];
+
+        let tableBody = document.getElementById('filterData');
+        jsonData.forEach(item=>{
+          const row = document.createElement('tr');
+          row.innerHTML = `<td>${item.name}</td><td>${item.age}</td>`;
+          tableBody.appendChild(row);
+        });
+    </script>
+</body>
+</html>

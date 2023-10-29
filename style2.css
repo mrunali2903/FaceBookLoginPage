@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 17rem;
+    margin-left: 540px;
+    margin-top: 60px;
+}
+.hrr{
+    opacity: .3;
+    margin-top: 10px;
+}
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    width: 380px;
+    height: 520px;
+    margin-top: 0px;
+    margin-left: 500px;
+    box-shadow: 2px 2px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-left:70px ;
+}
+.par{
+    margin-left:130px ;  
+    font-weight: 100; 
+    opacity: .6;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left:10px;
+    
+ 
+}
+.dat{
+    margin-left: 10px;
+}
+.em1{
+    padding: 4px;
+    margin: 10px;
+    font-size: medium;
+    opacity: .6;
+}
+.em2{
+    padding: 4px;
+    margin: 10px;
+    font-size: medium;
+    opacity: .6;
+}
+.date{
+    margin: 15px;
+    opacity: .7;
+  
+}
+.sel{
+    width: 100px;
+   padding: 3px;
+   /* margin: 10px; */
+   margin-left: 10px;
+   opacity: .6;
+}
+.btn1{
+    width: 95px;
+    padding: 5px;
+   margin: 10px;
+   background-color: white;  
+   border: 1px solid black; 
+   opacity: .6; 
+}
+
+.btnRadio{
+    margin: 10px;
+    
+}
+
+.txt{
+    padding: 4px;
+    margin: 10px;
+    font-size: medium;
+    width: 170px;
+    margin-left: 1px;
+    opacity: .6;
+}
+.btn3{
+    width: 200px;
+    height: 33px;
+    background-color:rgb(8, 155, 8);
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    color: white;
+}
+.para1{
+    font-size:small;
+    opacity: .7;
+}
+.para2{
+    font-size:small ;
+    opacity: .7;
+}
+.styl{
+    margin: 5px;
+}
+.gen{
+    margin-left: 10px;
+    opacity: .7;
+}
